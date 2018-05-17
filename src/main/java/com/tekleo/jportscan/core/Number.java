@@ -74,7 +74,7 @@ public class Number implements Serializable, Cloneable {
 
     @Override
     public String toString() {
-        return "Number{asInt=" + asInt + ", asString='" + asString + "'}";
+        return asString;
     }
 
     @Override
